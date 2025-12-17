@@ -1,11 +1,12 @@
 package CollectionFrameworkPrograms;
 
+import java.util.Enumeration;
 import java.util.Vector;
 
 public class VectorExampleDemo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		Vector<String> v=new Vector<String>();
 		v.add("Priya");
 		v.add("Srinivas");
@@ -13,6 +14,11 @@ public class VectorExampleDemo {
 		v.add("deepu");
 		v.add("Priya");
 		System.out.println("THe vector elem"+v);
+		
+		Enumeration<String> e=v.elements();
+		while(e.hasMoreElements()) {
+			System.out.println(e.nextElement());
+		}
 
 	}
 

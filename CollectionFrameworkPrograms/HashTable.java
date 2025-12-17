@@ -8,7 +8,7 @@ public class HashTable {
 		
 		Hashtable<String,Integer> ht=new Hashtable<String,Integer>();
 		ht.put("Priya",1);
-		ht.put("Anil",2);
+		ht.put("Sri Ram",2);
 		ht.put("Raju",3);
 		System.out.println("The tree elements are:"+ht);
 		System.out.println("The size "+ht.size());

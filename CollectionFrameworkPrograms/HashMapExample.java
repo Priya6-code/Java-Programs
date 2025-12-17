@@ -9,7 +9,7 @@ public class HashMapExample {
 		
 		/*HashMap<Integer,String> hm=new HashMap<Integer,String>();
 		hm.put(1,"Priya");
-		hm.put(2,"Anil");
+		hm.put(2,"Ramu");
 		hm.put(3,"Ram");
 		System.out.println("The elements in hashmap are :"+hm);
 		System.out.println(hm.size());
@@ -19,7 +19,7 @@ public class HashMapExample {
 		Collection<String> val=hm.values();
 		System.out.println("Values in the map are :"+val);
 		Set<?> entry=hm.entrySet();
-		System.out.println("keys and values in the map"+entry);
+		System.out.println("keys and values in the map"+entry); */
 		
 		
 		HashMap<Integer,String> hm1=new HashMap<Integer,String>();
@@ -27,7 +27,7 @@ public class HashMapExample {
 		Integer i2=new Integer(10); 
 		hm1.put(i1,"John");
 		hm1.put(i2,"Smith");
-		System.out.println(hm1);  */
+		System.out.println(hm1);  
 		
 		
 		HashMap<Integer,String> hm = new HashMap<>();

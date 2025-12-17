@@ -22,9 +22,9 @@ public class IdentityHashMapExample {
 		Integer i2=new Integer(10);
 		ihmp.put(i1,"John");
 		ihmp.put(i2,"Smith"); 
-		System.out.println("The out"+i1.equals(i2));
-		System.out.println("The compa"+(i1==i2));
-		System.out.println("The output"+ihmp);
+		System.out.println("The out"+ i1.equals(i2));
+		System.out.println("The compa"+ (i1==i2));
+		System.out.println("The output"+ ihmp);
 
 	}
 

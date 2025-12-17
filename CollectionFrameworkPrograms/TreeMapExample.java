@@ -10,7 +10,7 @@ public class TreeMapExample {
 		
 		TreeMap<Integer,String> tm=new TreeMap<Integer,String>();
 		tm.put(1,"Priya");
-		tm.put(2,"Anil");
+		tm.put(2,"Rani");
 		tm.put(3,"Raju");
 		System.out.println("The tree elements are:"+tm);
 		System.out.println("The size "+tm.size());
